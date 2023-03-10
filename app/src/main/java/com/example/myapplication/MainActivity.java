@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void boton_pulsado(View quien){
         String texto = String.valueOf(texto_introducido.getText());
-
+        texto_mostrado.setText(texto);
        Log.d("prueba", texto);
     }
 }
